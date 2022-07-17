@@ -199,16 +199,6 @@ margin-bottom: 30px;
     display: inline-block;
  }
 
- @media (max-width: 480px){
-    .grid{
-    grid-template-columns: 200px;
-    grid-template-rows: repeat(9, 1fr);
-   
-     }
-    }
-
-
-
 .fotoproducto{
     width: 200px;
     height: 100px;
@@ -222,6 +212,16 @@ margin-bottom: 30px;
     border-radius: 10px;
     text-align: center;
 }
+
+
+@media (max-width: 480px){
+    .grid{
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(9, 1fr);
+   
+     }
+    }
+
 
 /* Circular */
 
