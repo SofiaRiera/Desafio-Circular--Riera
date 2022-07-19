@@ -163,6 +163,23 @@ margin-bottom: 30px;
     
 }
 
+/* Crear Cuenta */
+
+#formulario{
+    background-image: url(imagen\ para\ formulario.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 700px;
+    justify-items: center;
+    margin-left: 400px;
+}
+
+.completardoc{
+   
+    width: 500px;
+}
 
 
 /* Cosmetica Natural */
@@ -236,12 +253,16 @@ margin-bottom: 30px;
     margin-bottom: 30px;
     }
 
+/* Footer */
 
-        footer div{
-        font-style: italic;
-        text-align: center;
-        background-color: #f0f0df;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        }
-        
+.container-fluid{ 
+    font-style: italic;
+    text-align: center;
+    background-color: #f0f0df;
+}
+
+.col-md-8{
+    font-weight: bold;
+}  
+
+
