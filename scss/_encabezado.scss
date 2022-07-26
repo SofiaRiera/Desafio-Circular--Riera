@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+
+}
+
+/* Encabezado para todas las paginas */
+
+
+#encabezado{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#encabezado nav ul{
+    background-color:#66af78;
+    display: flex;
+    flex-direction: row;
+}
+
+#encabezado nav ul li{
+    display: inline-block;        
+}
+
+#encabezado nav ul li a{
+ color: white;
+ background-color:#66af78;
+ text-decoration-line: none;
+ display: block;
+ padding: 15px;
+ font-weight: bold;
+ gap: 2px;
+ transition: all 1s;    
+}
+
+#encabezado nav ul li a:hover{
+background-color: #214921;  
+}

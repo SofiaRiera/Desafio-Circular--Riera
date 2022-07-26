@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Encabezado para todas las paginas */
+#encabezado {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#encabezado nav ul {
+  background-color: #66af78;
+  display: flex;
+  flex-direction: row;
+}
+
+#encabezado nav ul li {
+  display: inline-block;
+}
+
+#encabezado nav ul li a {
+  color: white;
+  background-color: #66af78;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+  gap: 2px;
+  transition: all 1s;
+}
+
+#encabezado nav ul li a:hover {
+  background-color: #214921;
+}
+
+/* Footer */
+.container-fluid {
+  font-style: italic;
+  text-align: center;
+  background-color: #f0f0df;
+}
+
+.col-md-8 {
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  #encabezado nav ul {
+    flex-direction: column;
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .servicios {
+    flex-direction: column;
+    height: 500px;
+  }
+  .beneficio {
+    width: 300px;
+    height: 100px;
+    padding-top: 5px;
+    margin: 5px;
+  }
+  .beneficio h2 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .beneficio {
+    font-size: 10px;
+  }
+}
+@media (max-width: 480px) {
+  #quienes_somos {
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #quienes_somos p {
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(9, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .container-fluid {
+    flex-direction: column;
+  }
+}
+/* Pagina de Inicio*/
+.titulo {
+  background-image: url(https://belleza.ideal.es/wp-content/uploads/2019/11/cosmetica-natural.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.servicios {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-color: #f0f0df;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  flex-direction: row;
+  height: 300px;
+}
+
+.beneficio {
+  background-color: #f0f0df;
+  width: 300px;
+  height: 120px;
+  border-radius: 20px;
+  font-size: 14px;
+  text-align: center;
+  border: 2px solid #a19c9c;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.detalle {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+/* Crear Cuenta */
+#registro {
+  color: black;
+  text-align: center;
+  width: 100%;
+  margin: 30px auto;
+}
+
+#registro h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#registro p {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+#formulario {
+  display: flex;
+  font-weight: 30px;
+  text-align: center;
+  padding: 100px;
+}
+
+/* Quienes Somos */
+#quienes_somos {
+  padding-top: 20px;
+  text-align: center;
+  height: 300px;
+  background-image: linear-gradient(#214921, #f0f0df);
+}
+
+#quienes_somos h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#quienes_somos p {
+  font-size: 18px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Crear Cuenta */
+#formulario {
+  background-image: url(imagen\ para\ formulario.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 500px;
+  height: 700px;
+  justify-items: center;
+  margin-left: 400px;
+}
+
+.completardoc {
+  width: 500px;
+}
+
+/* Cosmetica Natural */
+#CosmeticaNatural {
+  text-align: center;
+  margin-bottom: 150px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+#CosmeticaNatural h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-items: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: center;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  display: inline-block;
+}
+
+.fotoproducto {
+  width: 200px;
+  height: 100px;
+}
+
+.texto {
+  background-color: #f0f0df;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Circular */
+#circular {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+#circular h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=principal.estilos.css.map */
