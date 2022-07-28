@@ -4,7 +4,8 @@
 .container-fluid{ 
     font-style: italic;
     text-align: center;
-    background-color: #f0f0df;
+    background-color: $fondo;
+    font-size: $base;
 }
 
 .col-md-8{

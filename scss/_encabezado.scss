@@ -1,21 +1,20 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-   
+    font-family: $font-principal;
+     
 
 }
 
 /* Encabezado para todas las paginas */
 
-
 #encabezado{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
 }
 
 #encabezado nav ul{
-    background-color:#66af78;
+    background-color: $fondo;
     display: flex;
     flex-direction: row;
 }
@@ -25,8 +24,8 @@
 }
 
 #encabezado nav ul li a{
- color: white;
- background-color:#66af78;
+ color: $text-encabezado;
+ background-color: $primary;
  text-decoration-line: none;
  display: block;
  padding: 15px;
@@ -36,5 +35,5 @@
 }
 
 #encabezado nav ul li a:hover{
-background-color: #214921;  
+background-color: $secondary;  
 }
