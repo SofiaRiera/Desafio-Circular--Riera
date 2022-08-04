@@ -15,9 +15,8 @@
         }
 
     .servicios{
-        display: flex;
+        @include flex(null,center,null);
         gap: 50px;
-        justify-content: center;
         background-color: $fondo;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -26,6 +25,7 @@
     }
 
     .beneficio{
+        @include flex(column,space-around,center);
           background-color: $fondo;
           width: 300px;
           height: 120px;
@@ -35,7 +35,7 @@
           border: 2px solid #a19c9c;
           margin: 20px;
           display: flex;
-          flex-direction: column;
+
      }
        
     .detalle{
@@ -43,3 +43,21 @@
             margin-top: 10px;
      }
      
+     @media (max-width: 480px){
+        .servicios{
+        flex-direction: column;
+        height: 500px;
+        }
+
+         .beneficio{
+         width: 300px;
+         height: 100px;
+         padding-top: $spacinf-xsmall;
+         margin: $spacinf-xsmall;
+         font-size: 10px;   
+            
+        &__h2{
+        font-size: 16px;
+        font-weight: bold;      
+        }
+        }

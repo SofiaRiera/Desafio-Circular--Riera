@@ -4,22 +4,45 @@
             color:black;
             text-align: center;
             width: 100%;
-            margin: 30px auto;                  
+            margin: 30px auto;     
+
+            &__h2{
+                font-size: 30px;
+                margin-top: 50px;
+                margin-bottom: 30px;
+               
+            }   
+            &__p{
+                font-size: 18px;
+                font-style: italic;
+                margin-bottom: 30px;   
+            }
+
     }
         
-    #registro h2{
-        font-size: 30px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-       
-    }
 
-    #registro p{
-        font-size: 18px;
-        font-style: italic;
-        margin-bottom: 30px;   
-    }
+  
+    /*
+    #registro{
+        color:black;
+        text-align: center;
+        width: 100%;
+        margin: 30px auto;                  
+}
     
+#registro h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+   
+}
+
+#registro p{
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 30px;   
+}
+*/
        
     #formulario{
             display: flex; 
@@ -54,6 +77,21 @@ margin-bottom: 30px;
     margin-right: 100px; 
     
 }
+
+
+@media (max-width: 480px){
+    #quienes_somos{
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;   
+     }
+
+    #quienes_somos p{
+    font-size: 14px;
+    margin-left: 30px;
+    margin-right: 30px;   
+    }
+    }
 
 
 /* Crear Cuenta */
@@ -123,6 +161,14 @@ margin-bottom: 30px;
     text-align: center;
 }
 
+@media (max-width: 480px){
+    .grid{
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(9, 1fr);
+       
+    }
+   }
+
 
 /* Circular */
 
@@ -136,3 +182,8 @@ margin-bottom: 30px;
     margin-top: 50px;
     margin-bottom: 30px;
     }
+
+
+
+
+

@@ -28,7 +28,7 @@
  background-color: $primary;
  text-decoration-line: none;
  display: block;
- padding: 15px;
+ padding: $spacinf-xsmall;
  font-weight: bold;
  gap: 2px;
  transition: all 1s;    
@@ -36,4 +36,20 @@
 
 #encabezado nav ul li a:hover{
 background-color: $secondary;  
+
+
+}
+
+.cuenta--active{
+    @extend .extend;
+    color: red;
+
+}
+
+
+@media (max-width: 480px){
+    #encabezado nav ul{
+   flex-direction: column;
+   font-size: $small;
+   }
 }
