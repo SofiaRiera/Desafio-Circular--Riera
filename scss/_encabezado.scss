@@ -23,7 +23,7 @@
     display: inline-block;        
 }
 
-#encabezado nav ul li a{
+.extend{
  color: $text-encabezado;
  background-color: $primary;
  text-decoration-line: none;
@@ -43,6 +43,7 @@ background-color: $secondary;
 .cuenta--active{
     @extend .extend;
     color: red;
+
 
 }
 

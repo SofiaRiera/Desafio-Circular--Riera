@@ -4,46 +4,26 @@
             color:black;
             text-align: center;
             width: 100%;
-            margin: 30px auto;     
+            margin: 30px auto;  
+
 
             &__h2{
                 font-size: 30px;
                 margin-top: 50px;
                 margin-bottom: 30px;
+                color: $text-encabezado;
+                font-weight: bold;
                
             }   
             &__p{
                 font-size: 18px;
                 font-style: italic;
-                margin-bottom: 30px;   
+                margin-bottom: 30px;
+      
             }
 
     }
-        
-
-  
-    /*
-    #registro{
-        color:black;
-        text-align: center;
-        width: 100%;
-        margin: 30px auto;                  
-}
-    
-#registro h2{
-    font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 30px;
-   
-}
-
-#registro p{
-    font-size: 18px;
-    font-style: italic;
-    margin-bottom: 30px;   
-}
-*/
-       
+              
     #formulario{
             display: flex; 
             font-weight: 30px;
@@ -97,18 +77,16 @@ margin-bottom: 30px;
 /* Crear Cuenta */
 
 #formulario{
-    background-image: url(imagen\ para\ formulario.jpg);
-    background-repeat: no-repeat;
+      background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 500px;
     height: 700px;
     justify-items: center;
-    margin-left: 400px;
+ 
 }
 
-.completardoc{
-   
+.completardoc{   
     width: 500px;
 }
 
@@ -120,7 +98,7 @@ margin-bottom: 30px;
          }
     
         .completardoc{
-        font-size: 14px;
+        font-size: 10px;
         }
         }
 
@@ -141,7 +119,7 @@ margin-bottom: 30px;
 
 .grid{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 250px 250px 250px;
     justify-items: center;
     grid-column-gap: 12px;
     grid-row-gap: 12px;
@@ -154,59 +132,26 @@ margin-bottom: 30px;
     flex-direction: column; 
     gap: 10px;
     display: inline-block;
-    width: 200px;
-    height: 400px;
-    background-color: red;
-    
-    
+    width: 250px;
+    height: 150px;
+  
  }
 
 .fotoproducto{
-    width: 200px;
+    width: 250px;
     height: 100px;
+    border-radius: 10px;
 
 }
+
 .texto{
     background-color: #f0f0df;
-    height: 300px;
+    height: 50px;
     border-radius: 10px;
     text-align: center;
     font-size: 12px;
+    margin-top: 5px;
 }
-
-/*
-.producto{
-
-    display: flex;
-    flex-direction: column; 
-    gap: 10px;
-    display: inline-block;
- }
-
-.fotoproducto{
-    width: 200px;
-    height: 100px;
-
-}
-
-.texto{
-    background-color: #f0f0df;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: medium;
-}
-
-.precios{
-    background-color: #f0f0df;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: xx-small;
-}
-*/
 
 @media (max-width: 480px){
     .grid{
