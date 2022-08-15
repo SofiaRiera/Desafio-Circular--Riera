@@ -23,13 +23,35 @@
             }
 
     }
-              
-    #formulario{
-            display: flex; 
-            font-weight: 30px;
-            text-align: center;
-            padding: 100px;
+        
+    #fondo{
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: $fondo;
+    }
 
+    .registro_personal{ 
+        font-size: 24px;
+        }
+
+    .personal{ 
+        margin-top: 10px;
+        
+    } 
+
+    .personal p{ 
+        
+        width: 100%;
+
+    } 
+    .personal p input{ 
+        margin-top: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 35px;
+        width: 100%;
+           
     }
 
 
@@ -77,27 +99,25 @@ margin-bottom: 30px;
 /* Crear Cuenta */
 
 #formulario{
-      background-repeat: no-repeat;
+    background-color: $fondo;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 500px;
-    height: 700px;
-    justify-items: center;
- 
 }
 
 .completardoc{   
-    width: 500px;
+    justify-items: center;
 }
 
 @media (max-width: 480px){
         #formulario{
-        height: 500px;
         margin-left: 10px;
         margin-right: 10px;   
-         }
+        }
     
         .completardoc{
+        font-family: $font-principal;   
         font-size: 10px;
         }
         }

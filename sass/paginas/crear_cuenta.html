@@ -27,28 +27,39 @@
         <h2>Registrate</h2>
         <p>Comprá más rápido y llevá el control de tus pedidos, ¡en un solo lugar!</p>
         </div>
-        
-        <form id="formulario">
-            <fieldset class="completardoc">
-                <legend>Documentación Personal</legend>
-                <p>Nombre
-                     <input type="text"></p>
-                <p>Apellido
-                    <input type="text"></p>
-                <p>DNI            
-                     <input type="text"></p>
-                <p>E-mail
-                    <input type="text"></p>
-                <p>Contraseña
-                    <input type="text"></p>
-                <p>Confirmar contraseña
-                     <input type="text"></p>
-                <p>Direccion de envio
-                     <input type="text"></p>
-                     <input type="submit" value="Crear cuenta">
+
+        <div id="fondo">
+        <form>
+            <fieldset">
+                <legend class="registro_personal">Documentación Personal</legend>
+                <div class="personal">
+                <p>Nombre:
+                     <input type="text" name="nombre" placeholder="Ingresá tu nombre"></p>
+                     <br />
+                <p>Apellido:
+                    <input type="text" name="apellido" placeholder="Ingresá tu apellido"></p>
+                    <br />
+                <p>DNI:            
+                    <input type="text" name="dni" placeholder="Ingresá tu DNI"></p>
+                    <br />
+                <p>E-mail:
+                    <input type="text" name="email" placeholder="Ingresá tu e-mail"></p>
+                    <br />
+                <p>Contraseña:
+                    <input type="text" name="contaseña" placeholder="Ingresá tu contraseña"></p>
+                    <br />
+                <p>Confirmar contraseña:
+                    <input type="text" name="contraseña" placeholder="Re-ingresá tu contraseña"></p>
+                    <br />
+                <p>Direccion de envio:
+                    <input type="text" name="direccion" placeholder="Ingresá la dirección"></p>
+                    <br />
+                <input type="submit" value="Crear cuenta">
+            </div>
             </fieldset>
         </form>
-
+    </div>
+        
     </main>
     <footer>
         <div class="container-fluid mt-4">

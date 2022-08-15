@@ -17,6 +17,7 @@
     background-color: $fondo;
     display: flex;
     flex-direction: row;
+    background-color: $primary;
 }
 
 #encabezado nav ul li{
@@ -36,15 +37,11 @@
 
 #encabezado nav ul li a:hover{
 background-color: $secondary;  
-
-
 }
 
 .cuenta--active{
     @extend .extend;
-    color: red;
-
-
+    color: rgb(126, 122, 122);
 }
 
 

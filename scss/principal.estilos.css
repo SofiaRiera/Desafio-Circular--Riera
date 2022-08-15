@@ -19,6 +19,7 @@
   background-color: #f0f0df;
   display: flex;
   flex-direction: row;
+  background-color: #66af78;
 }
 
 #encabezado nav ul li {
@@ -42,7 +43,7 @@
 }
 
 .cuenta--active {
-  color: red;
+  color: rgb(126, 122, 122);
 }
 
 @media (max-width: 480px) {
@@ -56,7 +57,7 @@
   font-style: italic;
   text-align: center;
   background-color: #f0f0df;
-  font-size: 1.6em;
+  font-size: 1em;
 }
 
 .col-md-8 {
@@ -102,19 +103,19 @@
 }
 
 .servicios {
-  /* @include flex(null,center,null);*/
+  display: flex;
+  justify-content: center;
   gap: 50px;
   background-color: #f0f0df;
   margin-bottom: 10px;
   margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 20px;
+  flex-direction: row;
   height: 300px;
 }
 
 .beneficio {
-  displey: flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -170,11 +171,31 @@
   margin-bottom: 30px;
 }
 
-#formulario {
-  display: flex;
-  font-weight: 30px;
-  text-align: center;
-  padding: 100px;
+#fondo {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f0f0df;
+}
+
+.registro_personal {
+  font-size: 24px;
+}
+
+.personal {
+  margin-top: 10px;
+}
+
+.personal p {
+  width: 100%;
+}
+
+.personal p input {
+  margin-top: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 35px;
+  width: 100%;
 }
 
 /* Quienes Somos */
@@ -212,25 +233,24 @@
 }
 /* Crear Cuenta */
 #formulario {
+  background-color: #f0f0df;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 500px;
-  height: 700px;
-  justify-items: center;
 }
 
 .completardoc {
-  width: 500px;
+  justify-items: center;
 }
 
 @media (max-width: 480px) {
   #formulario {
-    height: 500px;
     margin-left: 10px;
     margin-right: 10px;
   }
   .completardoc {
+    font-family: tahoma;
     font-size: 10px;
   }
 }
